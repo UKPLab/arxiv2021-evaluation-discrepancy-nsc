@@ -4,7 +4,14 @@ This repository contains the evaluation study materials done in the following
 publication:
 
 ```
-TBD
+@misc{puzikov2021evaluation,
+      title={Evaluation Discrepancy Discovery: A Sentence Compression Case-study}, 
+      author={Yevgeniy Puzikov},
+      year={2021},
+      eprint={2101.09079},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 > **Abstract:** Reliable evaluation protocols are of utmost importance for reproducible NLP research. In this work, we show that sometimes neither metric nor conventional human evaluation is sufficient to draw conclusions about system performance. Using sentence compression as an example task, we demonstrate how a system can game a well-established dataset to achieve state-of-the-art results. In contrast with the results reported in previous work that showed correlation between human judgements and metric scores, our manual analysis of state-of-the-art system outputs demonstrates that high metric scores may only indicate a better fit to the data, but not better outputs, as perceived by humans.
